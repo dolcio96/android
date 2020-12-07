@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toStartOf="@+id/cancelButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/delatenumber"
+        android:onClick="delateDisplay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        />
+
+    <Button
+        android:id="@+id/buttonCall1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dial_button_style"
+        android:onClick="writeTelephoneNumber"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCall2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display"
+        app:layout_constraintBottom_toTopOf="@+id/button_1"/>
+
+    <Button
+        android:id="@+id/buttonCall2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dial_button_style"
+        android:onClick="writeTelephoneNumber"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCall3"
+        app:layout_constraintStart_toEndOf="@+id/buttonCall1"
+        app:layout_constraintTop_toBottomOf="@+id/display"
+        app:layout_constraintBottom_toTopOf="@+id/button_2"/>
+
+    <Button
+        android:id="@+id/buttonCall3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/dial_button_style"
+        android:onClick="writeTelephoneNumber"
+        android:textColor="#FFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonCall2"
+        app:layout_constraintTop_toBottomOf="@+id/display"
+        app:layout_constraintBottom_toTopOf="@+id/button_3"/>
+
+
+    <!--1-->
+
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_1"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_4"
+        app:layout_constraintEnd_toStartOf="@+id/button_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCall1" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_2"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_5"
+        app:layout_constraintEnd_toStartOf="@+id/button_3"
+        app:layout_constraintStart_toEndOf="@+id/button_1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCall2" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_3"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_2"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCall3" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_4"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_7"
+        app:layout_constraintEnd_toStartOf="@+id/button_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_1" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_5"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_8"
+        app:layout_constraintEnd_toStartOf="@+id/button_6"
+        app:layout_constraintStart_toEndOf="@+id/button_4"
+        app:layout_constraintTop_toBottomOf="@+id/button_2" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_6"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_5"
+        app:layout_constraintTop_toBottomOf="@+id/button_3" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_7"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_star"
+        app:layout_constraintEnd_toStartOf="@+id/button_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_4" />
+
+    <Button
+        android:id="@+id/button_8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_8"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_0"
+        app:layout_constraintEnd_toStartOf="@+id/button_9"
+        app:layout_constraintStart_toEndOf="@+id/button_7"
+        app:layout_constraintTop_toBottomOf="@+id/button_5" />
+
+    <Button
+        android:id="@+id/button_9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_9"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_ast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_8"
+        app:layout_constraintTop_toBottomOf="@+id/button_6" />
+
+    <Button
+        android:id="@+id/button_star"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_star"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_call"
+        app:layout_constraintEnd_toStartOf="@+id/button_0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_7" />
+
+    <Button
+        android:id="@+id/button_0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_0"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_call"
+        app:layout_constraintEnd_toStartOf="@+id/button_ast"
+        app:layout_constraintStart_toEndOf="@+id/button_star"
+        app:layout_constraintTop_toBottomOf="@+id/button_8" />
+
+    <Button
+        android:id="@+id/button_ast"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="sans-serif-thin"
+        android:onClick="writeNumber"
+        android:text="@string/button_ast"
+        android:textColor="#FFF"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_0"
+        app:layout_constraintTop_toBottomOf="@+id/button_9" />
+
+    <ImageButton
+        android:id="@+id/button_call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corners"
+        android:contentDescription="@string/call_button"
+        android:onClick="call"
+        android:src="@android:drawable/sym_action_call"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
