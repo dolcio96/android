@@ -1,0 +1,4 @@
+#Mon Dec 21 17:49:28 GMT 2020
+base.0=C\:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\FragmentExample2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

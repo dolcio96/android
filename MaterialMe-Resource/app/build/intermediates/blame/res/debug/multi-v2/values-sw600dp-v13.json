@@ -1,0 +1,75 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\MaterialMe-Resource\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\MaterialMe-Resource\\app\\src\\main\\res\\values-sw600dp\\style.xml",
+                    "from": {
+                        "startLines": "5,12,19,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "99,426,701,516",
+                        "endLines": "10,13,20,18",
+                        "endColumns": "12,52,52,12",
+                        "endOffsets": "418,510,786,695"
+                    },
+                    "to": {
+                        "startLines": "21,27,28,29",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1288,1607,1687,1768",
+                        "endLines": "26,27,28,31",
+                        "endColumns": "12,79,80,12",
+                        "endOffsets": "1602,1682,1763,1922"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\MaterialMe-Resource\\app\\src\\main\\res\\values-sw600dp\\integers.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1233",
+                        "endLines": "20",
+                        "endColumns": "14",
+                        "endOffsets": "1283"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ludovico Dolcini\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\9bdbd6f777bbf5f2c63bff48c091232b\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Ludovico Dolcini\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\1030414d14e381f550e8fd825a4e073a\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1170,1927",
+                        "endLines": "10,11,12,13,14,15,16,17,18,35",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1228,2104"
+                    }
+                }
+            ]
+        }
+    ]
+}

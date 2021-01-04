@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\MaterialMe-Resource\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rUS\\values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ludovico Dolcini\\Desktop\\UNIBS\\MAGISTRALE\\Erasmus\\UNI\\Mobile Computing\\Android\\MaterialMe-Resource\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
+                    "from": {
+                        "startLines": "42,27,13,2,4,5,6,3",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1653,1041,638,19,123,174,245,70",
+                        "endLines": "55,39,25,2,4,5,11,3",
+                        "endColumns": "12,19,19,49,49,69,26,51",
+                        "endOffsets": "2187,1643,1033,64,168,239,630,117"
+                    },
+                    "to": {
+                        "startLines": "2,16,29,42,43,44,45,51",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,581,1176,1564,1614,1664,1734,2119",
+                        "endLines": "15,28,41,42,43,44,50,51",
+                        "endColumns": "12,19,19,49,49,69,26,51",
+                        "endOffsets": "576,1171,1559,1609,1659,1729,2114,2166"
+                    }
+                }
+            ]
+        }
+    ]
+}
